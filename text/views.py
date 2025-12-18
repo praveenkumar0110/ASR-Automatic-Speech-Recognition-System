@@ -111,7 +111,7 @@ def upload_audio(request):
     segments = []
     for seg in result["segments"]:
         segments.append({
-            "start": round(seg["start"], 3),  # seconds + milliseconds
+            "start": round(seg["start"], 3),  
             "end": round(seg["end"], 3),
             "text": seg["text"].strip()
         })
