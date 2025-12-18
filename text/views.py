@@ -82,7 +82,7 @@ from datetime import datetime
 
 from .db import transcript_collection
 
-# Load Whisper multilingual model
+
 model = whisper.load_model("base")
 
 @csrf_exempt
@@ -96,13 +96,13 @@ def upload_audio(request):
 
     audio_file = request.FILES["audio"]
 
-    # Save audio temporarily
+
     temp_path = f"media/{audio_file.name}"
     with open(temp_path, "wb+") as f:
         for chunk in audio_file.chunks():
             f.write(chunk)
 
-    # 🔥 Auto language detection (ALL languages)
+  
     result = model.transcribe(
         temp_path,
         task="transcribe"
