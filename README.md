@@ -14,7 +14,7 @@ A backend project that allows users to **upload audio files**, automatically **d
 ## 📌 Project Overview
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*8nqz8jzN0RvrRZtGJPD7Ww.png" width="80%"/>
+ 
 </p>
 
 This project exposes REST APIs that:
@@ -29,7 +29,7 @@ This project exposes REST APIs that:
 ## 🔄 Workflow (How It Works)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/whisper-ai/whisper/main/assets/whisper_architecture.png" width="80%"/>
+  
 </p>
 
 1. Client uploads an audio file via API  
@@ -72,3 +72,19 @@ This project exposes REST APIs that:
 
 ## 📂 Project Structure
 
+audio-transcription-api/
+│
+├── text/
+│ ├── views.py # Upload & transcription logic
+│ ├── urls.py # API routes
+│ ├── db.py # MongoDB connection
+│ └── models.py # Django model (future use)
+│
+├── media/
+│ └── audio/ # Uploaded audio files
+│
+├── project/
+│ └── urls.py # Main URL config
+│
+├── manage.py
+└── README.md
