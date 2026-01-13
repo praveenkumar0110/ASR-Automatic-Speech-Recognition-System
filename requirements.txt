@@ -8,3 +8,4 @@ soundfile
 numpy
 fastapi
 uvicorn
+python-docx
