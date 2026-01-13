@@ -53,29 +53,12 @@ The system exposes **REST APIs**, supports **language detection**, stores result
 | ML | PyTorch, Torchaudio |
 | Language | Python 3.9+ |
 
----
 
-## 📂 Project Structure
-
-ASR-Automatic-Speech-Recognition-System/
-│
-├── server/ # Django project settings
-├── transcript/ # ASR & transcript logic
-│ ├── views.py
-│ ├── urls.py
-│
-├── manage.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-yaml
-Copy code
 
 ---
 
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/praveenkumar0110/ASR-Automatic-Speech-Recognition-System-V3.git
+git clone https://github.com/praveenkumar0110/ASR-Automatic-Speech-Recognition-System.git
 cd ASR-Automatic-Speech-Recognition-System
