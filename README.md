@@ -1,4 +1,4 @@
-# 🎙️ ASR – Automatic Speech Recognition System (Django + Whisper)
+# 🎙️ ASR – Automatic Speech Recognition System 
 
 A **Django-based Automatic Speech Recognition (ASR) backend** built using **OpenAI Whisper** to convert clear audio into **high-accuracy, word-by-word transcripts with timestamps (seconds & milliseconds)**.  
 The system exposes **REST APIs**, supports **language detection**, stores results in **MongoDB**, and performs **accuracy analysis** for speech evaluation and subtitle generation.
@@ -21,13 +21,7 @@ The system exposes **REST APIs**, supports **language detection**, stores result
   - Speech evaluation
   - Audio-text alignment
 
-### 📊 Accuracy Analysis
-- Compares ASR output with reference text
-- Detects:
-  - Missing words
-  - Extra words
-  - Incorrect words
-- Useful for evaluation and benchmarking
+
 
 ### 🗄️ MongoDB Storage
 - Stores:
